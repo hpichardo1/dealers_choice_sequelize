@@ -53,6 +53,12 @@ Lecture.belongsTo(Lecture, {as: 'segue'})
 Student.hasMany(Lecture)
 School.hasMany(Lecture)
 
+// const data = {
+//   schools: ['IONA', 'NYU', 'Mount Saint Mary', 'Boston College'],
+//   lectures: ['Programming', 'Finance', 'Bio', 'Life'], 
+//   students: ['Heinnssin', 'James', 'Denise', 'Janine']
+// }
+
 
 
 const syncAndSeed = async() => {
